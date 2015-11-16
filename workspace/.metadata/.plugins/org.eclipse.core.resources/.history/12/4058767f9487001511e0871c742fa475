@@ -1,0 +1,11 @@
+package edu.iut.tests;
+
+import org.junit.*;
+
+public class AbstractApplicationLogTest {
+	
+	private edu.iut.app.AbstractApplicationLog log;
+	
+	@Before
+
+}

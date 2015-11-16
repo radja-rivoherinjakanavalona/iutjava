@@ -1,0 +1,22 @@
+package edu.iut.tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import edu.iut.app.ApplicationWarningLog;
+
+public class ApplicationWarningLogTest {
+
+	@Test
+	public void test() {
+		ApplicationWarningLog info = new ApplicationWarningLog();
+		ApplicationWarningLog info2 = new ApplicationWarningLog();
+
+		System.out.println("Test du message d'erreur");
+		info.setMessage("Un message");
+		assertEquals(info.getMessage(),"[INFO]un message");
+
+	}
+
+}

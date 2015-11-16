@@ -5,32 +5,44 @@ import javax.swing.JPanel;
 
 
 import edu.iut.gui.widget.agenda.AgendaPanelFactory.ActiveView;
-
-
+import edu.iut.app.ApplicationSession;
+/**
+ * 
+ * @author Anita RADJA / Nathalie RIVOHERINJAKANAVALONA
+ *
+ */
 public class WeekPanel extends EventPanel {
 
+	// Exercice 4
 	public enum WeekDayNames {
 		EMPTYDAY("",""),
-		MONDAY("monday","mon"),
-		TUESDAY("tuesday","tue"),
-		WEDNESDAY("wednesday","wed"),
-		THURSDAY("thursday","thu"),
-		FRIDAY("friday","fri"),
-		SATURDAY("saturday","sat"),
-		SUNDAY("sunday","sun");
+		MONDAY(ApplicationSession.instance().getString("monday"),ApplicationSession.instance().getString("mon")),
+		TUESDAY(ApplicationSession.instance().getString("tuesday"),ApplicationSession.instance().getString("tue")),
+		WEDNESDAY(ApplicationSession.instance().getString("wednesday"),ApplicationSession.instance().getString("wed")),
+		THURSDAY(ApplicationSession.instance().getString("thursday"),ApplicationSession.instance().getString("thu")),
+		FRIDAY(ApplicationSession.instance().getString("friday"),ApplicationSession.instance().getString("fri")),
+		SATURDAY(ApplicationSession.instance().getString("saturday"),ApplicationSession.instance().getString("sat")),
+		SUNDAY(ApplicationSession.instance().getString("sunday"),ApplicationSession.instance().getString("sun"));
 		
 		private String name;
 		private String shortName;
-		
+		/**
+		 * 
+		 * @param name
+		 * @param shortName
+		 */
 		WeekDayNames(String name,String shortName) {
 			this.name = name;
 			this.shortName = shortName;
 		}
-		
+		/**
+		 * 
+		 * @return String
+		 */
 		public String getShortName() {
 			return shortName;
 		}
-		
+
 		public String toString() {
 			return name;
 		}

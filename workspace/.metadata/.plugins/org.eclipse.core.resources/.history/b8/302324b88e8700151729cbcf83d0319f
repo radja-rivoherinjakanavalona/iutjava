@@ -1,0 +1,22 @@
+package edu.iut.tests;
+import org.
+
+public class TestUnitaire {
+
+	@Test
+	public AbstractApplicationLog(){
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

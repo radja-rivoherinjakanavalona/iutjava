@@ -1,15 +1,28 @@
 package edu.iut.app;
-
+/**
+ * 
+ * @author Anita RADJA / Nathalie RIVOHERINJAKANAVALONA
+ *
+ */
 public interface IApplicationLog {
-		/** TP1 : Créérr les méthodes :
-		 - setMessage
-		  - getMessage
-		  - addListener
-		  - getApplicationLogListeners();
-		 */
+	/**
+	 * @param message String
+	 */
 	public void setMessage(String message);
+	
+	/**
+	 * @return String
+	 */
 	public String getMessage();
+	
+	/**
+	 * @param listener IApplicationLogListener
+	 */
 	public void addListener(IApplicationLogListener listener);
+	
+	/**
+	 * 
+	 * @return IApplicationLogListener[]
+	 */
 	public IApplicationLogListener[] getApplicationLogListeners();
-
 }

@@ -9,7 +9,11 @@ import javax.swing.JPanel;
 
 import edu.iut.gui.widget.agenda.AgendaPanelFactory.ActiveView;
 import edu.iut.gui.widget.agenda.WeekPanel.WeekDayNames;
-
+/**
+ * 
+ * @author Anita RADJA / Nathalie RIVOHERINJAKANAVALONA
+ *
+ */
 public class MonthPanel extends EventPanel {
 
 	public MonthPanel() {

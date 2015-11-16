@@ -8,7 +8,11 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 import edu.iut.gui.widget.agenda.WeekPanel.WeekDayNames;
-
+/**
+ * 
+ * @author Anita RADJA / Nathalie RIVOHERINJAKANAVALONA
+ *
+ */
 public class AgendaPanelFactory {
 
 	public enum ActiveView{
@@ -18,10 +22,17 @@ public class AgendaPanelFactory {
 		
 		private String activeView;
 		
+		/**
+		 * 
+		 * @param activeView
+		 */
 		ActiveView(String activeView) {
 			this.activeView = activeView;
 		}
 		
+		/**
+		 * @return String
+		 */
 		public String toString() {
 			return activeView;
 		}		
@@ -29,7 +40,11 @@ public class AgendaPanelFactory {
 	
 	public AgendaPanelFactory() {
 	}
-	
+	/**
+	 * 
+	 * @param activeView ActiveView
+	 * @return JPanel
+	 */
 	public JPanel getAgendaView(ActiveView activeView) {
 		JPanel agendaView = null;
 		switch (activeView) {

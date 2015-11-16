@@ -1,0 +1,16 @@
+package edu.iut.tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+public class AbstractApplicationLogTest {
+
+	@Before
+	
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

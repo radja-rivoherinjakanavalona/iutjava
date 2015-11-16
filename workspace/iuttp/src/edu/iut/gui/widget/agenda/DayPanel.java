@@ -8,9 +8,18 @@ import javax.swing.JPanel;
 
 import edu.iut.gui.widget.agenda.AgendaPanelFactory.ActiveView;
 import edu.iut.gui.widget.agenda.WeekPanel.WeekDayNames;
-
+/**
+ * 
+ * @author Anita RADJA / Nathalie RIVOHERINJAKANAVALONA
+ *
+ */
 public class DayPanel extends EventPanel {
 
+	/**
+	 * 
+	 * @param activeView ActiveView
+	 * @param weekDayNames WeekDayNames
+	 */
 	public DayPanel(ActiveView activeView,WeekDayNames weekDayNames) {
 		super(activeView);
 		switch (activeView) {

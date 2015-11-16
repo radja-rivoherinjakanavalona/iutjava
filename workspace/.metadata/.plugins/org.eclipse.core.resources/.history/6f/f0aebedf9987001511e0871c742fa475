@@ -1,0 +1,19 @@
+package edu.iut.tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+import edu.iut.app.AbstractApplicationLog;
+
+public class AbstractApplicationLogTest {
+
+	protected AbstractApplicationLog logM;
+	protected String message = "ERROR";
+	
+	@Test
+	public void testGetMessage() {
+		assertSame(message,logM.getMessage());
+	}
+
+}

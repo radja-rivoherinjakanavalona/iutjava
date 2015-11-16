@@ -11,10 +11,14 @@ import javax.swing.JSplitPane;
 import edu.iut.gui.widget.agenda.AgendaPanelFactory;
 import edu.iut.gui.widget.agenda.ControlAgendaViewPanel;
 import edu.iut.gui.widget.agenda.AgendaPanelFactory.ActiveView;
-
+/**
+ * 
+ * @author Anita RADJA / Nathalie RIVOHERINJAKANAVALONA
+ *
+ */
 
 public class SchedulerFrame extends JFrame {
-	
+
 	protected void setupUI() {
 		JPanel contentPane = new JPanel();
 		CardLayout layerLayout = new CardLayout();
@@ -30,7 +34,7 @@ public class SchedulerFrame extends JFrame {
 		this.pack();
 		layerLayout.next(contentPane);
 	}
-	
+
 	public SchedulerFrame() {
 		super();
 		addWindowListener (new WindowAdapter(){
@@ -41,6 +45,10 @@ public class SchedulerFrame extends JFrame {
 		setupUI();
 
 	}
+	/**
+	 * 
+	 * @param title String
+	 */
 	public SchedulerFrame(String title) {
 		super(title);
 		addWindowListener (new WindowAdapter(){

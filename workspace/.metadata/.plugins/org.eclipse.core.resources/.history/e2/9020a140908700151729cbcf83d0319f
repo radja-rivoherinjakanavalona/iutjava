@@ -1,0 +1,23 @@
+package edu.iut.tests;
+
+import org.junit.Test;
+
+public class TestUnitaire {
+
+	@Test
+	public void AbstractApplicationLog(){
+		System.err.println("Erreur");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

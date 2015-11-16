@@ -2,4 +2,12 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javax.xml.bind.Marshaller.Listener"/>
 <fullyQualifiedTypeName name="edu.iut.app.IApplicationLogListener"/>
+<fullyQualifiedTypeName name="edu.iut.tests.AbstractApplicationLogTest"/>
+<fullyQualifiedTypeName name="edu.iut.app.AbstractApplicationLog"/>
+<fullyQualifiedTypeName name="edu.iut.app.ApplicationErrorLog"/>
+<fullyQualifiedTypeName name="org.junit.AfterClass"/>
+<fullyQualifiedTypeName name="edu.iut.app.ApplicationInfoLog"/>
+<fullyQualifiedTypeName name="edu.iut.app.ApplicationWarningLog"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="edu.iut.app.ApplicationSession"/>
 </qualifiedTypeNameHistroy>

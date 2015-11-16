@@ -1,0 +1,18 @@
+package edu.iut.tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+import edu.iut.app.AbstractApplicationLog;
+
+public class AbstractApplicationLogTest {
+
+	protected AbstractApplicationLog logM;
+	
+	@Test
+	public void testGetMessage() {
+		logM.getMessage();
+	}
+
+}

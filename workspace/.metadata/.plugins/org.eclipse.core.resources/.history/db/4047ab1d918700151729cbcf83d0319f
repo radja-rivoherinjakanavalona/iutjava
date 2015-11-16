@@ -1,0 +1,32 @@
+package edu.iut.tests;
+
+import org.junit.*;
+
+public class AbstractApplicationLogTest {
+	
+	protected String message;
+	@Before
+	public void AbstractApplicationLog(){
+		message = new String("Bi");
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
