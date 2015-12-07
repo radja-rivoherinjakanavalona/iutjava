@@ -1,14 +1,14 @@
 package edu.iut.app;
 /**
- * 
+ * Interface IApplicationLogListener
  * @author Anita RADJA / Nathalie RIVOHERINJAKANAVALONA
- *
  */
 public interface IApplicationLogListener {
+	
 	/**
-	 * 
-	 * @param level String
-	 * @param message String
+	 * Méthode qui crée un message
+	 * 	@param level
+	 * 	@param message
 	 */
-	public void newMessage(String level, String message);
+	void newMessage(String level, String message);
 }

@@ -9,16 +9,16 @@ import javax.swing.JPanel;
 import edu.iut.gui.widget.agenda.AgendaPanelFactory.ActiveView;
 import edu.iut.gui.widget.agenda.WeekPanel.WeekDayNames;
 /**
- * 
+ * Classe  DayPanel qui est une sous-clsse de EventPanel
  * @author Anita RADJA / Nathalie RIVOHERINJAKANAVALONA
- *
+ * 
  */
 public class DayPanel extends EventPanel {
 
 	/**
-	 * 
-	 * @param activeView ActiveView
-	 * @param weekDayNames WeekDayNames
+	 * Constucteur
+	 * @param activeView
+	 * @param weekDayNames
 	 */
 	public DayPanel(ActiveView activeView,WeekDayNames weekDayNames) {
 		super(activeView);
@@ -45,9 +45,7 @@ public class DayPanel extends EventPanel {
 			}
 			break;
 		case MONTH_VIEW:
-			JPanel hour = new JPanel();
-			hour.add(new JLabel("H"));
-			this.add(hour);
+
 		
 		}
 	}

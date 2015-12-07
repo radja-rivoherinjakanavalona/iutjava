@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import edu.iut.app.ApplicationErrorLog;
 /**
- * 
+ * Classe ApplicationErrorLogTest : test pour les méthodes de ApplicationErrorLog
  * @author Anita RADJA / Nathalie RIVOHERINJAKANAVALONA
  *
  */

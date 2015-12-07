@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import edu.iut.app.ApplicationWarningLog;
 /**
- * 
+ * Classe ApplicationWarningLogTest : test pour les méthodes de ApplicationWarningLog
  * @author Anita RADJA / Nathalie RIVOHERINJAKANAVALONA
  *
  */

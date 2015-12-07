@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import edu.iut.app.ApplicationInfoLog;
 /**
- * 
+ * Classe ApplicationInfoLogTest : test pour les méthodes de ApplicationInfoLog
  * @author Anita RADJA / Nathalie RIVOHERINJAKANAVALONA
  *
  */

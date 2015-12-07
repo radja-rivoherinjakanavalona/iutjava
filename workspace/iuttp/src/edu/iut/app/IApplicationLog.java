@@ -1,28 +1,33 @@
 package edu.iut.app;
 /**
- * 
+ * Interface  IApplicationLog
  * @author Anita RADJA / Nathalie RIVOHERINJAKANAVALONA
- *
  */
 public interface IApplicationLog {
-	/**
-	 * @param message String
-	 */
-	public void setMessage(String message);
 	
 	/**
+	 * Méthode qui initialise un message
+	 * Parametre
+	 * 	@param message
+	 */
+	void setMessage(String message);
+	
+	/**
+	 * Méthode qui retourne un message
 	 * @return String
 	 */
-	public String getMessage();
+	String getMessage();
 	
 	/**
-	 * @param listener IApplicationLogListener
+	 * Méthode qui ajoute un listener 
+	 * de type IApplicationLogListener
+	 * 	@param listener
 	 */
-	public void addListener(IApplicationLogListener listener);
+	void addListener(IApplicationLogListener listener);
 	
 	/**
-	 * 
-	 * @return IApplicationLogListener[]
+	 * Méthode qui retourne un tableau de IApplicationLogListener
+	 * @return IApplicationLogListener
 	 */
-	public IApplicationLogListener[] getApplicationLogListeners();
+	IApplicationLogListener[] getApplicationLogListeners();
 }

@@ -6,14 +6,19 @@ import javax.swing.JPanel;
 
 import edu.iut.gui.widget.agenda.AgendaPanelFactory.ActiveView;
 import edu.iut.app.ApplicationSession;
+
 /**
- * 
+ * Classe  WeekPanel qui est une sous-clsse de EventPanel
  * @author Anita RADJA / Nathalie RIVOHERINJAKANAVALONA
- *
+ * 
  */
 public class WeekPanel extends EventPanel {
 
-	// Exercice 4
+	/**
+	 * Enumération des 
+	 * jours de la semaine en utilisant l'internationnalisation
+	 *
+	 */
 	public enum WeekDayNames {
 		EMPTYDAY("",""),
 		MONDAY(ApplicationSession.instance().getString("monday"),ApplicationSession.instance().getString("mon")),
@@ -26,8 +31,9 @@ public class WeekPanel extends EventPanel {
 		
 		private String name;
 		private String shortName;
+		
 		/**
-		 * 
+		 * Constructeur
 		 * @param name
 		 * @param shortName
 		 */
@@ -35,19 +41,23 @@ public class WeekPanel extends EventPanel {
 			this.name = name;
 			this.shortName = shortName;
 		}
+		
 		/**
-		 * 
+		 * Méthode qui retourne le nom court du jour 
 		 * @return String
 		 */
 		public String getShortName() {
 			return shortName;
 		}
-
+		
 		public String toString() {
 			return name;
 		}
 	}
 	
+	/**
+	 * Constructeur
+	 */
 	public WeekPanel() {
 		super(ActiveView.WEEK_VIEW);
 		GridLayout daysOfWeekLayout = new GridLayout(1,7);		
